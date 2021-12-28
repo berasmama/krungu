@@ -1,0 +1,32 @@
+{
+  "name": "krungu",
+  "version": "1.0.0",
+  "description": "krungu is discord bot music from Libra project by BSM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "commit": "git cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsmdevcircle/krungu.git"
+  },
+  "author": "cakahlul (https://github.com/cakahlul)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsmdevcircle/krungu/issues"
+  },
+  "homepage": "https://github.com/bsmdevcircle/krungu#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
